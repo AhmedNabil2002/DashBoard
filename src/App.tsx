@@ -1,4 +1,5 @@
 import { Button, Icon } from "@/components/ui";
+import Translate from "./Translate";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
         <Icon icon="uil:moneybag" className="mr-2" size={20} />
         Hello World
       </Button>
+      <Translate />
+      <div></div>
     </div>
   );
 }
